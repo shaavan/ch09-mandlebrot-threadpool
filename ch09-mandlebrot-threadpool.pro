@@ -11,6 +11,7 @@ CONFIG += c++14
 SOURCES += \
     Job.cpp \
     MandelbrotCalculator.cpp \
+    MandelbrotWidget.cpp \
     main.cpp \
     MainWindow.cpp
 
@@ -18,7 +19,8 @@ HEADERS += \
     Job.h \
     JobResult.h \
     MainWindow.h \
-    MandelbrotCalculator.h
+    MandelbrotCalculator.h \
+    MandelbrotWidget.h
 
 FORMS += \
     MainWindow.ui
