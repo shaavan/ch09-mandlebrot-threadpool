@@ -7,6 +7,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+class MandelbrotWidget;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -17,5 +19,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MandelbrotWidget* mMandlebrotWidget;
 };
 #endif // MAINWINDOW_H
